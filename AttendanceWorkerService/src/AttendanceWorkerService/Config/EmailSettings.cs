@@ -1,17 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace AttendanceWorkerService.src.AttendanceWorkerService.Config
+﻿namespace AttendanceWorkerService.src.AttendanceWorkerService.Config
 {
     public class EmailSettings
     {
-        public string Host { get; set; }
-        public int Port { get; set; }
-        public string Username { get; set; }
-        public string Password { get; set; }
-        public string From { get; set; }
+        public string Host { get; set; } = "localhost";
+        public int Port { get; set; } = int.MaxValue;
+        public string Username { get; set; } = "User";
+        public string Password { get; set; } = "Password";
+        public string From { get; set; } = "Fromuser";
     }
 }

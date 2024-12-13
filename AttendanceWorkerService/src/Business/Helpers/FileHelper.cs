@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace AttendanceWorkerService.src.Business.Helpers
+﻿namespace AttendanceWorkerService.src.Business.Helpers
 {
     public static class FileHelper
     {

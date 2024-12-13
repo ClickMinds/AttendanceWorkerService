@@ -4,16 +4,17 @@ using AttendanceWorkerService.src.Core.Interfaces;
 using AttendanceWorkerService.src.Infrastructure.Data;
 using AttendanceWorkerService.src.Infrastructure.Data.AttendanceWorkerService.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace AttendanceWorkerService.src.AttendanceWorkerService.DI
 {
     public static class DependencyInjectionConfig
     {
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="services"></param>
+        /// <param name="configuration"></param>
+        /// <returns></returns>
         public static IServiceCollection ConfigureDependencyInjection(this IServiceCollection services, IConfiguration configuration)
         {
             // Database Context
